@@ -1,0 +1,21 @@
+Xft.dpi:	96
+Xft.antialias:	1
+Xft.autohint:	1
+Xft.hinting:	1
+Xft.hintstyle:	hintslight
+Xft.lcdfilder:	lcdlight
+Xft.rgba:	rgb
+URxvt.font:	xft:Hack:size=11
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.depth:	32
+URxvt.scrollBar:	false
+URxvt.transparent:	true
+URxvt.shading:		20
+
+! yankable url
+URxvt.perl-ext: default,url-select
+URxvt.keysym.M-u:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
